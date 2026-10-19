@@ -1,0 +1,21 @@
+{
+  "name": "soheil-tizen-console",
+  "version": "3.0.1",
+  "description": "soheil_tizen · private proxy console (VLESS/VMess/Trojan/SS over a single multiplexed port)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "nodemonConfig": {
+    "watch": ["index.js"],
+    "ext": "js,mjs,cjs",
+    "ignore": ["bk-data/**", "node_modules/**"]
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
